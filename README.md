@@ -1,5 +1,3 @@
-# KutuphaneYonetimSistemiDb
-C# ve SQL Server ile kütüphane yönetim sistemi, kitap, üye ve ödünç takibi.
 # Kütüphane Yönetim Sistemi
 
 SQL Server üzerinde kurulmuş bir kütüphane veritabanı projesi. Kitapları, üyeleri ve ödünç verme kayıtlarını tutar. İlerleyen aşamada C# konsol uygulamasıyla yönetilecek.
