@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KutuphaneYonetimSistemi
+namespace KutuphaneDb
 {
+
     public class Book
     {
         public int BookId { get; set; }
@@ -14,5 +15,14 @@ namespace KutuphaneYonetimSistemi
         public string Category { get; set; }
         public int PublicationYear { get; set; }
         public bool IsAvailable { get; set; }
+        public Book(string title, string author, string category, int publicationYear, bool isAvailable)
+        {
+            Title = title;
+            Author = author;
+            Category = category;
+            PublicationYear = publicationYear;
+            IsAvailable = isAvailable;
+        }
+
     }
 }
